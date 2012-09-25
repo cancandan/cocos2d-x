@@ -43,9 +43,7 @@ LOCAL_SRC_FILES :=../../lua/lapi.c \
           ../../tolua/tolua_to.c
           
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../lua \
-                           $(LOCAL_PATH)/../../tolua \
-                           $(LOCAL_PATH)/../../cocos2dx_support \
-                           $(LOCAL_PATH)/../../cocos2dx_support/exts/luafilesystem/src 
+                           $(LOCAL_PATH)/../../tolua 
           
           
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/ \
